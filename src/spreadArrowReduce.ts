@@ -11,7 +11,7 @@ const printOther: (c: boolean | string) => void = (out) => {
 
 const add3 = (a: number, b: number = 1) => a + b;
 
-add3(2);
+add3(2, 4);
 
 const hobbies = ['Sports', 'Cooking', 'ff', 'gg'];
 const activeHobbies = ['Hiking'];

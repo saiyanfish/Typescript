@@ -102,4 +102,4 @@ const Max = Deparment.createEmployee('max');
 console.log(Max, Deparment.fiscalYear);
 
 // accountingCopy.describe();
-exports.default = Deparment;
+export default Deparment;

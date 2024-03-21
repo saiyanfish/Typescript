@@ -1,3 +1,5 @@
+// js has no interface
+
 // type AddFn = (a: number, b: number) => number;
 interface AddFn {
   (a: number, b: number): number;

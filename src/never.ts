@@ -1,8 +1,8 @@
-let userInput: unknown;
+// let userInput: unknown;
 let userNaME: string;
 
-userInput = 5;
-userInput = 'Max';
+// userInput = 5;
+// userInput = 'Max';
 if (typeof userInput === 'string') {
   userNaME = userInput;
 }
@@ -11,8 +11,8 @@ function generateError(message: string, code: number): never {
   throw { message: message, errorCode: code };
 }
 
-const result = generateError('An error occur', 500);
-console.log(result);
+const resultw = generateError('An error occur', 500);
+console.log(resultw);
 
 let logged;
 function goAndAal(data: string) {
